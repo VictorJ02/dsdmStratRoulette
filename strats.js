@@ -45,79 +45,41 @@ let generalTStratArray = [
 
 ];
 
-    //dust 2 map
-let dust2CTStratArray =
+let mapCTStratArray = {
+    dust2: [],
+    inferno: [],
+    nuke: [],
+    train: [],
+    mirage: [],
+    vertigo: [],
+    overpass: [],
+    agency: [
+        {heading: "Tony Hawk", strat: "Hver gang du ser en rail (gellender) må du gå opp på den og rop masse skate-triks. Når du går av må du ta en 360."}
+    ],
+    office: [
+        {heading: "Rainbow 6 siege", strat: "Alle må gå inn stigen til vinduet til kontoret og snik sæ bort mot motsatnderan."},
+        {heading: "Guerilla", strat: "Alle går til det store vinduet bak garasjen croucha, og reise sæ samtidig."}
+    ],
+    cache: [],
+    anubis: []
+};
 
-let dust2TStratArray =
-
-
-    //inferno map
-let infernoCTStratArray =
-
-let infernoTStratArray =
-
-
-    //nuke map
-let nukeCTStratArray =
-
-let nukeTStratArray = [
-    {heading: "Rushe vent", strat: "Alle må rushe venten. Lez gooooo!"}
-
-]
-
-
-    //train map
-let trainCTStratArray =
-
-let trainTStratArray =
-
-
-    //mirage map
-let mirageCTStratArray =
-
-let mirageTStratArray =
-
-
-    //vertigo map
-let vertigoCTStratArray =
-
-let vertigoTStratArray =
-
-
-    //overpass map
-let overpassCTStratArray =
-
-let overpassTStratArray =
-
-
-    //agency map
-let agencyCTStratArray = [
-    {heading: "Tony Hawk", strat: "Hver gang du ser en rail (gellender) må du gå opp på den og rop masse skate-triks. Når du går av må du ta en 360."}
-]
-
-let agencyTStratArray = [
-    {heading: "Tony Hawk", strat: "Hver gang du ser en rail (gellender) må du gå opp på den og rop masse skate-triks. Når du går av må du ta en 360."}
-]
-
-
-    //office map
-let officeCTStratArray = [
-    {heading: "Rainbow 6 siege", strat: "Alle må gå inn stigen til vinduet til kontoret og snik sæ bort mot motsatnderan."}
-    {heading: "Guerilla", strat: "Alle går til det store vinduet bak garasjen croucha, og reise sæ samtidig."}
-]
-
-let officeTStratArray = [
-    {heading: "Se, æ e en busk!", strat: "Alle må sitt i en busk / plante."}
-]
-
-
-    //cache map
-let cacheCTStratArray =
-
-let cacheTStratArray =
-
-
-    //anubis map
-let anubisCTStratArray =
-
-let anubisTStratArray =
+let mapTStratArray = {
+    dust2: [],
+    inferno: [],
+    nuke: [
+        {heading: "Rushe vent", strat: "Alle må rushe venten. Lez gooooo!"}
+    ],
+    train: [],
+    mirage: [],
+    vertigo: [],
+    overpass: [],
+    agency: [
+        {heading: "Tony Hawk", strat: "Hver gang du ser en rail (gellender) må du gå opp på den og rop masse skate-triks. Når du går av må du ta en 360."}
+    ],
+    office: [
+        {heading: "Se, æ e en busk!", strat: "Alle må sitt i en busk / plante."}
+    ],
+    cache: [],
+    anubis: []
+};
