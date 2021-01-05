@@ -41,7 +41,10 @@ let infernoTStratArray =
     //nuke map
 let nukeCTStratArray =
 
-let nukeTStratArray =
+let nukeTStratArray = [
+    {heading: "Rushe vent", strat: "Alle må rushe venten. Lez gooooo!"}
+
+]
 
 
     //train map
