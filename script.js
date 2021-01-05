@@ -5,6 +5,10 @@ let stratAnswer = document.getElementById('stratAnswer');
 ctButton.addEventListener("click", ctStrat);
 tButton.addEventListener("click", tStrat);
 
+function mapChooser(map) {
+    console.log(map);
+}
+
 function ctStrat() {
     stratAnswer.innerHTML = "";
     let randomStrat = Math.floor(ctStratArray.length * Math.random());
