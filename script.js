@@ -9,7 +9,7 @@ function mapChooser(map) {
     ctStrats = generalCTStratArray.concat(mapCTStratArray[map]);
     tStrats = generalTStratArray.concat(mapTStratArray[map]);
     console.log(ctStrats, tStrats);
-    buttonsEl.innerHTML = '<button type="button" id="ctButton" onclick="ctStrat()">CT</button><button type="button" id="tButton" onclick="tStrat()">T</button><form method="get" action="index.html"><button type="submit">Tilbake</button></form>';
+    buttonsEl.innerHTML = '<button type="button" id="ctButton" onclick="ctStrat()">CT</button><button type="button" id="tButton" onclick="tStrat()">T</button><form method="get" action="https://victorj02.github.io/dsdmStratRoulette"><button type="submit">Tilbake</button></form>';
 }
 
 function ctStrat() {
