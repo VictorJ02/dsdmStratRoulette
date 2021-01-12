@@ -12,6 +12,8 @@ let generalCTStratArray = [
     {heading: "DUBSTEP", strat: "En på laget har voiechat konstant på mens han blæste dubastep på en høytaler gjennom hele runden."},
     {heading: "Fattiggris", strat: "Man kan kun bruk våpen man ikke har skin på."},
     {heading: "Granada", strat: "Skippe alt som e på boten og queue Granada Remix av Cigarillos"},
+    {heading: "Basshunter", strat: "Skippe alt som e på boten og queue valgfri Basshunter sang. I tilegg må man snakk svænsk resten av runden"},
+    {heading: "Vassendgutane", strat: "Skippe alt som e på boten og queue valgfri Vassendgutanesang. I tilegg kan man bare quote Vassendgutane-lyrics resten av runden"},
     //herifra og ned e antiterrorist unikt
     {heading: "30 Sec", strat: "Alle må bli på spawn te timer si 30."},
     {heading: "Da Hood", strat: "Før runden starte må alle skriv 'finna shoot you up' og så kjøp UMP-45. Alle ska kjør 'drive-bys' uten og stop."},
@@ -34,6 +36,8 @@ let generalTStratArray = [
     {heading: "DUBSTEP", strat: "En på laget har voiechat konstant på mens han blæste dubastep på en høytaler gjennom hele runden."},
     {heading: "You spin me right round", strat: "Hver gang man får en kill må man snurr en runde på stolen og rop WEEEEEEE!!!"},
     {heading: "Granada", strat: "Skippe alt som e på boten og queue Granada Remix av Cigarillos"},
+    {heading: "Basshunter", strat: "Skippe alt som e på boten og queue valgfri Basshuntersang. I tilegg må man snakk svænsk resten av runden"},
+    {heading: "Vassendgutane", strat: "Skippe alt som e på boten og queue valgfri Vassendgutanesang. I tilegg kan man bare quote Vassendgutane-lyrics resten av runden"},
     //herifra og ned e terrorist unikt
     {heading: "Headass", strat: "Får du et headshot kan du ikke gjør nokka resten av runden."},
     {heading: "Die hard", strat: "Kun crouching og Duel Berrettas."},
