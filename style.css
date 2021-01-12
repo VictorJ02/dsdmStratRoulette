@@ -1,9 +1,35 @@
+body {
+    background-image: url("media/images/background1.jpg");
+    background-size: 100%;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    margin: 1%;
+}
+
 #heading {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
+    text-align: center;
+    display: block;
+}
+
+#stratHeading {
+    font-size: 200%;
+    color:white;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+#stratAnswer {
+    font-size: 120%;
+    color: white;
+    margin-left: 1%;
 }
 
 #kickass {

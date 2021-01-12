@@ -8,8 +8,7 @@ let tStrats = "";
 function mapChooser(map) {
     ctStrats = generalCTStratArray.concat(mapCTStratArray[map]);
     tStrats = generalTStratArray.concat(mapTStratArray[map]);
-    console.log(ctStrats, tStrats);
-    buttonsEl.innerHTML = '<button type="button" id="ctButton" onclick="ctStrat()">CT</button><button type="button" id="tButton" onclick="tStrat()">T</button>';
+    buttonsEl.innerHTML = '<img src="media/images/ct.png" id="ctButton" onclick="ctStrat()"></img><img src="media/images/t.png" id="tButton" onclick="tStrat()"></img>';
 }
 
 function ctStrat() {
@@ -20,8 +19,7 @@ function ctStrat() {
     };
 
     stratHeadingEl.innerHTML = ctStrats[randomStrat].heading;
-    stratHeadingEl.style.fontWeight = "bold";
-    stratAnswer.innerHTML = ctStrats[randomStrat].strat;
+    stratAnswerEl.innerHTML = ctStrats[randomStrat].strat;
 }
 
 function tStrat() {
@@ -32,6 +30,5 @@ function tStrat() {
     };
 
     stratHeadingEl.innerHTML = tStrats[randomStrat].heading;
-    stratHeadingEl.style.fontWeight = "bold";
     stratAnswer.innerHTML = tStrats[randomStrat].strat;
 }
