@@ -1,38 +1,38 @@
-let buttonsEl = document.getElementById('buttons')
+let buttonsEl = document.getElementById('buttons');
+let stratHeadingEl = document.getElementById('stratHeading');
 let stratAnswerEl = document.getElementById('stratAnswer');
-
-/*
-let ctButton = "";
-let tButton = "";
-let eventCT = "";
-let eventT = "";
-*/
 
 let ctStrats = "";
 let tStrats = "";
 
 function mapChooser(map) {
-    let ctStrats = generalCTStratArray.concat(mapCTStratArray[map]);
-    let tStrats = generalTStratArray.concat(mapTStratArray[map]);
+    ctStrats = generalCTStratArray.concat(mapCTStratArray[map]);
+    tStrats = generalTStratArray.concat(mapTStratArray[map]);
     console.log(ctStrats, tStrats);
-    buttonsEl.innerHTML = '<button type="button" id="ctButton">CT</button><button type="button" id="tButton">T</button>';
-    /*
-    ctButtonEl = document.getElementById('ctButton');
-    tButtonEl = document.getElementById('tButton');
-    eventCT = ctButtonEl.addEventListener("click", ctStrat());
-    eventT = tButtonEl.addEventListener("click", tStrat());
-    */
+    buttonsEl.innerHTML = '<button type="button" id="ctButton" onclick="ctStrat()">CT</button><button type="button" id="tButton" onclick="tStrat()">T</button>';
 }
 
 function ctStrat() {
-    stratAnswer.innerHTML = "";
     let randomStrat = Math.floor(ctStrats.length * Math.random());
-    console.log(ctStrats[randomStrat].strat);   
+    
+    if (ctStrats[randomStrat].heading == stratHeadingEl.innerHTML) {
+        ctStrat();
+    };
+
+    console.log(ctStrats[randomStrat].strat);
+    stratHeadingEl.innerHTML = ctStrats[randomStrat].heading;
+    stratHeadingEl.style.fontWeight = "bold";
     stratAnswer.innerHTML = ctStrats[randomStrat].strat;
 }
 
 function tStrat() {
-    stratAnswer.innerHTML = "";
     let randomStrat = Math.floor(tStrats.length * Math.random());
-    stratAnswer.innerHTML = tStrats[randomStrat];
+
+    if (tStrats[randomStrat].heading == stratHeadingEl.innerHTML) {
+        tStrat();
+    };
+
+    stratHeadingEl.innerHTML = tStrats[randomStrat].heading;
+    stratHeadingEl.style.fontWeight = "bold";
+    stratAnswer.innerHTML = tStrats[randomStrat].strat;
 }
