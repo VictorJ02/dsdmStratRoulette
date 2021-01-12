@@ -19,7 +19,6 @@ function ctStrat() {
         ctStrat();
     };
 
-    console.log(ctStrats[randomStrat].strat);
     stratHeadingEl.innerHTML = ctStrats[randomStrat].heading;
     stratHeadingEl.style.fontWeight = "bold";
     stratAnswer.innerHTML = ctStrats[randomStrat].strat;
