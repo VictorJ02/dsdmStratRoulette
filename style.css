@@ -5,3 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
 }
+
+#kickass {
+    position: absolute;
+    bottom: 0%;
+    left: 97%;
+}
