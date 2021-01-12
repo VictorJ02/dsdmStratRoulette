@@ -11,6 +11,7 @@ let generalCTStratArray = [
     {heading: "BIG FLEX", strat: "Når du drep nonn må du type navnet på den du drept sammen med 'get owned' i chatten. Det må du gjør med én gang."},
     {heading: "DUBSTEP", strat: "En på laget har voiechat konstant på mens han blæste dubastep på en høytaler gjennom hele runden."},
     {heading: "Fattiggris", strat: "Man kan kun bruk våpen man ikke har skin på."},
+    {heading: "Granada", strat: "Skippe alt som e på boten og queue Granada Remix av Cigarillos"},
     //herifra og ned e antiterrorist unikt
     {heading: "30 Sec", strat: "Alle må bli på spawn te timer si 30."},
     {heading: "Da Hood", strat: "Før runden starte må alle skriv 'finna shoot you up' og så kjøp UMP-45. Alle ska kjør 'drive-bys' uten og stop."},
@@ -32,6 +33,7 @@ let generalTStratArray = [
     {heading: "BIG FLEX", strat: "Når du drep nonn må du type navnet på den du drept sammen med 'get owned' i chatten. Det må du gjør med én gang."},
     {heading: "DUBSTEP", strat: "En på laget har voiechat konstant på mens han blæste dubastep på en høytaler gjennom hele runden."},
     {heading: "You spin me right round", strat: "Hver gang man får en kill må man snurr en runde på stolen og rop WEEEEEEE!!!"},
+    {heading: "Granada", strat: "Skippe alt som e på boten og queue Granada Remix av Cigarillos"},
     //herifra og ned e terrorist unikt
     {heading: "Headass", strat: "Får du et headshot kan du ikke gjør nokka resten av runden."},
     {heading: "Die hard", strat: "Kun crouching og Duel Berrettas."},
