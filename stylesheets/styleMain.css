@@ -95,20 +95,6 @@ button:hover {
 }
 
 
-#stratHeading {
-    font-size: 200%;
-    color:white;
-    font-weight: bold;
-    margin-left: 1%;
-    text-align: center;
-}
-
-#stratAnswer {
-    font-size: 120%;
-    color: white;
-    margin-left: 1%;
-}
-
 #kickass {
     position: absolute;
     bottom: 0%;

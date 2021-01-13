@@ -1,0 +1,41 @@
+body {
+    background-image: url("../media/images/assault_background.png");
+    background-size: 100%;
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#heading:hover {
+    color: dodgerblue;
+}
+
+
+#heading {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    padding: 50px;
+    display: block;
+}
+
+
+#kickass {
+    position: absolute;
+    bottom: 0%;
+    left: 97%;
+}
