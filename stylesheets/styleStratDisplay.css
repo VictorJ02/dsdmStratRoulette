@@ -13,14 +13,23 @@ button:hover {
 }
 
 #stratBox {
-    background-color: grey;
+    background-color: rgba(100,100,100,0.4);
+    box-shadow: 0 0 2px 1px black;
     width: 30%;
     height: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
 }
 
 #stratHeading {
     font-size: 200%;
     color:white;
+    text-shadow: 1px 1px black;
     font-weight: bold;
     margin-left: 1%;
     text-align: center;
@@ -29,5 +38,6 @@ button:hover {
 #stratAnswer {
     font-size: 120%;
     color: white;
+    text-shadow: 1px 1px black;
     margin-left: 1%;
 }
