@@ -168,7 +168,9 @@ let mapCTStratArray = {
 };
 
 let mapTStratArray = {
-    dust2: [],
+    dust2: [
+        {heading: "Sniper elite 5", strat: "Alle kjøpe sniper og scope ned mid. Sikt på ballan."}
+    ],
     inferno: [],
     nuke: [
         {heading: "Rushe vent", strat: "Alle må rushe venten. Lez gooooo!"}
