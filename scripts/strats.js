@@ -29,7 +29,7 @@ let generalTStratArray = [
     {heading: "Bytt hender", strat: "Bytt hånd på tastatur og mus."},
     {heading: "Nægev eller shniper", strat: "Alle droppe våpenan sine. Den som e nederst på leaderboardet kjøpe en Negev, den som e nerst nederst kjøpe en Scout. Når dem dør kan man plokk opp demmers våpen."},
     {heading: "Dårlig kommunikasjon", strat: "Kan bare bann eller si A eller B."},
-    {heading: "Pistol først", strat: "må få en kill med pistolen før du kan bruk hovedvåpenet."},
+    {heading: "Pistol først", strat: "Må få en kill med pistolen før du kan bruk hovedvåpenet."},
     {heading: "Pæng e lættis", strat: "Spilleren med mest pæng må kjøp ting t alle. Resten kan ikke kjøp nokka i det hele tatt."},
     {heading: "Riflemen", strat: "Laget må ha en av hver rifle, ingen kan ha den samme."},
     {heading: "BIG FLEX", strat: "Når du drep nonn må du type navnet på den du drept sammen med 'get owned' i chatten. Det må du gjør med én gang."},
