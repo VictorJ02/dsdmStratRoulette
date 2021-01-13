@@ -1,4 +1,3 @@
-
 let generalCTStratArray = [
     {heading: "Monnjfull", strat: "Alle må fyll munnen med drikke, og kan ikke svelge/spytte ut før du er død eller runden er ferdig."},
     {heading: "Alle dræp Magnus", strat: "Alle må forsøk å dræp Magnus den hær runden."},
@@ -38,7 +37,6 @@ let generalCTStratArray = [
     {heading: "Sovjetiske Taktikka", strat: "Bare en person kjøp et våpen. Ræsten følge ætter og plukke opp våpenet til lederen når han daue."},
     {heading: "Zuhn's Zeus", strat: "Bare Zeus og kniv"},
     {heading: "Ørna", strat: "Alle kjøpe deagle. Bare one deag"},
-    {heading: "På boligjakt", strat: "Gå innom bægge sites før man plante"},
     {heading: "BAK DÆ!", strat: "Man kan bare bruk S for å gå"},
     {heading: "Titten på hjørnet", strat: "Hele laget peeke en fiende en etter en med bare pistol"},
     {heading: "Ørna EXPERT MODE", strat: "Alle kjøpe deagle. Bare one deag. Hvis man treff kroppen må man gå for knife"},
@@ -112,7 +110,6 @@ let generalTStratArray = [
     {heading: "Sovjetiske Taktikka", strat: "Bare en person kjøp et våpen. Ræsten følge ætter og plukke opp våpenet til lederen når han daue."},
     {heading: "Zuhn's Zeus", strat: "Bare Zeus og kniv"},
     {heading: "Ørna", strat: "Alle kjøpe deagle. Bare one deag"},
-    {heading: "På boligjakt", strat: "Gå innom bægge sites før man plante"},
     {heading: "BAK DÆ!", strat: "Man kan bare bruk S for å gå"},
     {heading: "Titten på hjørnet", strat: "Hele laget peeke en fiende en etter en med bare pistol"},
     {heading: "Ørna EXPERT MODE", strat: "Alle kjøpe deagle. Bare one deag. Hvis man treff kroppen må man gå for knife"},
@@ -139,6 +136,7 @@ let generalTStratArray = [
     {heading: "Reverse Cowgirl, sex... hehe...", strat: "4 spiller dele sæ i to gruppa. Den ene spillern må vær på toppen av den andre. I tilegg må han se den andre veien. Sistemann runke i spawn"},
     {heading: "Covid-19", strat: "Det kan ikke vær flere enn en person i vært rom"},
     //herifra og ned e terrorist unikt
+    {heading: "På boligjakt", strat: "Gå innom bægge sites før man plante"},
     {heading: "Headass", strat: "Får du et headshot kan du ikke gjør nokka resten av runden."},
     {heading: "Die hard", strat: "Kun crouching og Duel Berrettas."},
     {heading: "Bangarang", strat: "Rush B, så CT spawn, og så plante en plass."},
