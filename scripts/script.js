@@ -22,10 +22,12 @@ let tStrats = "";
 function mapChooser(map) {
     ctStrats = generalCTStratArray.concat(mapCTStratArray[map]);
     tStrats = generalTStratArray.concat(mapTStratArray[map]);
-    buttonsEl.innerHTML = '<img src="media/images/ct.png" id="ctButton" onclick="ctStrat()"></img><img src="media/images/t.png" id="tButton" onclick="tStrat()"></img>';
 
     head.removeChild(linkStyle);
     head.appendChild(linkTeamSelect);
+
+    buttonsEl.innerHTML = '<img src="media/images/ct.png" id="ctButton" onclick="ctStrat()"></img><img src="media/images/t.png" id="tButton" onclick="tStrat()"></img>';
+
 }
 
 function ctStrat() {
