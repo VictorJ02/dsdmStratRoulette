@@ -17,3 +17,7 @@ button:hover {
     justify-content: center;
     margin-top: 3%;
 }
+
+#ctButton {
+    margin-right: 2%;
+}

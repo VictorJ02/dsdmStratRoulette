@@ -43,3 +43,7 @@ button:hover {
     text-shadow: 1px 1px black;
     margin-left: 1%;
 }
+
+#ctButton {
+    margin-right: 2%;
+}

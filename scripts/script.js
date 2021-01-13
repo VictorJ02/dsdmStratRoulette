@@ -29,7 +29,6 @@ function mapChooser(map) {
     head.appendChild(linkTeamSelect);
 
     buttonsEl.innerHTML = '<img src="media/images/ct.png" id="ctButton" onclick="ctStrat()"></img><img src="media/images/t.png" id="tButton" onclick="tStrat()"></img>';
-
 }
 
 function ctStrat() {
