@@ -19,6 +19,8 @@ linkStratDisplay.id = 'linkStratDisplay';
 let ctStrats = "";
 let tStrats = "";
 
+let playedStrats = [];
+
 function mapChooser(map) {
     ctStrats = generalCTStratArray.concat(mapCTStratArray[map]);
     tStrats = generalTStratArray.concat(mapTStratArray[map]);
@@ -36,12 +38,22 @@ function ctStrat() {
     let a = document.head.querySelector('#linkTeamSelect');
     let b = '<link rel="stylesheet" type="text/css" href="stylesheets/styleTeamSelect.css" id="linkTeamSelect">';
     let result = b.toString().localeCompare(a);
-
-    console.log(elementExists);
     
     if (ctStrats[randomStrat].heading == stratHeadingEl.innerHTML) {
         ctStrat();
     };
+
+        for (let i = 0; i < playedStrats.length; i++) {
+            if (playedStrats.length == ctStrats.length) {
+                playedStrats = [];
+                break;
+            } else if (playedStrats[i] == ctStrats[randomStrat].heading) {
+                randomStrat = Math.floor(ctStrats.length * Math.random());
+                i = -1; continue;
+            }
+        }
+    
+    playedStrats.push(ctStrats[randomStrat].heading);
 
     if (elementExists == null) {
         head.appendChild(linkStratDisplay); 
@@ -65,6 +77,19 @@ function tStrat() {
     if (tStrats[randomStrat].heading == stratHeadingEl.innerHTML) {
         tStrat();
     };
+
+    for (let i = 0; i < playedStrats.length; i++) {
+        if (playedStrats.length == tStrats.length) {
+            playedStrats = [];
+            break;
+        } else if (playedStrats[i] == tStrats[randomStrat].heading) {
+            randomStrat = Math.floor(tStrats.length * Math.random());
+            i = -1; continue;
+        }
+    }
+
+    playedStrats.push(tStrats[randomStrat].heading);
+
 
     if (elementExists == null) {
         head.appendChild(linkStratDisplay); 
