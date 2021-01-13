@@ -68,7 +68,7 @@ let generalCTStratArray = [
     {heading: "30 Sec", strat: "Alle må bli på spawn te timer si 30."},
     {heading: "Da Hood", strat: "Før runden starte må alle skriv 'finna shoot you up' og så kjøp UMP-45. Alle ska kjør 'drive-bys' uten og stop."},
     {heading: "Two man army", strat: "Kun to kan vær ut av spawn om gangen. Flere kan går ut når dem dør."},
-    {heading: "Jarand", strat: "Dem 3 øverste på leaderboardet prøve sitt beste å vinn runden, mens dem 2 nederste prøve å hindre dem så my som mulig uten å skad dem."},
+    {heading: "Jarand's way", strat: "Dem 3 øverste på leaderboardet prøve sitt beste å vinn runden, mens dem 2 nederste prøve å hindre dem så my som mulig uten å skad dem."},
     {heading: "Rap god", strat: "Alle callouts må rappes."},
     {heading: "Big smoke", strat: "Alle stacke A og gjømme sæ i en smoke fram til bomben e planta"},
 ];
