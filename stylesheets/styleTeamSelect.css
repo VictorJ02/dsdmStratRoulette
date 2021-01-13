@@ -11,3 +11,8 @@ img:hover {
 button:hover {
     cursor: pointer;
 }
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
