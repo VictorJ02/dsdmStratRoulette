@@ -1,12 +1,11 @@
 body {
-    background-image: url("../media/images/background1.jpg");
+    background-image: url("../media/images/assault_background.png");
     background-size: 100%;
 }
 
 img {
-    width: 10%;
+    width: 100%;
     height: auto;
-    margin: 1%;
 }
 
 img:hover {
@@ -18,16 +17,83 @@ button:hover {
     cursor: pointer;
 }
 
+#heading:hover {
+    color: dodgerblue;
+}
+
 
 #heading {
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
+    padding: 50px;
     display: block;
 }
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1rem;
+    background-color: rgba(100,100,100,0.3);
+    box-shadow: 0 0 4px 2px black;
+    margin: 90px;
+    grid-template-areas:
+    "D2 IF TR . MI NU OP"
+    ". VG CA AG OF AN .";
+    grid-auto-rows: 320px;
+}
+
+#buttons > * {
+    padding-top: 40px;
+}
+
+#dust2Button {
+    grid-area: D2;
+}
+
+#infernoButton {
+    grid-area: IF;
+}
+
+#trainButton {
+    grid-area: TR;
+}
+
+#mirageButton {
+    grid-area: MI;
+}
+
+#nukeButton {
+    grid-area: NU;
+}
+
+#overpassButton {
+    grid-area: OP;
+}
+
+#vertigoButton {
+    grid-area: VG;
+}
+
+#cacheButton {
+    grid-area: CA;
+}
+
+#agencyButton {
+    grid-area: AG;
+}
+
+#officeButton {
+    grid-area: OF;
+}
+
+#anubisButton {
+    grid-area: AN;
+}
+
 
 #stratHeading {
     font-size: 200%;
