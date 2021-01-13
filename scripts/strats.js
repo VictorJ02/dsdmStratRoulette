@@ -63,6 +63,11 @@ let generalCTStratArray = [
     {heading: "Reverse Cowgirl, sex... hehe...", strat: "4 spiller dele sæ i to gruppa. Den ene spillern må vær på toppen av den andre. I tilegg må han se den andre veien. Sistemann runke i spawn"},
     {heading: "Covid-19", strat: "Det kan ikke vær flere enn en person i vært rom"},
     {heading: "Jens Petter Jacobsen", strat: "Snakk som Jens P. Jacobsen. End alle setninga med ord som Kurrant, Shhiiiit Man!, The we take berlin, Ka kalt du båten? etc."},
+    {heading: "Granatfæst", strat: "Vær runde må man kjøp molotov/incendiary og HE før man kjøp nokka annet. Hvis du daue før du har brukt dæm bægge kan du bare bruk shotgun og starterpistolen"},
+    {heading: "Alt har en pris", strat: "Man kan bare kjøp armor hvis man vinn runden"},
+    {heading: "CSGO Shotgun Pro", strat: "Alle kjøp shotgun. Den eneste bevegelsen som e lov e bhopping. Hvis man ikke kan å bhoppe så må man kast shotgunen sin ditt man vil og så gå te shotgunen."},
+    {heading: "Lydleggern", strat: "Alle laga sound effects the alt dæm gjør"},
+    {heading: "Russisk Roulette", strat: "Alle må trykk på autobuy på starten av runden (F1) og bruk det man får."},
     //herifra og ned e antiterrorist unikt
     {heading: "30 Sec", strat: "Alle må bli på spawn te timer si 30."},
     {heading: "Da Hood", strat: "Før runden starte må alle skriv 'finna shoot you up' og så kjøp UMP-45. Alle ska kjør 'drive-bys' uten og stop."},
@@ -137,6 +142,11 @@ let generalTStratArray = [
     {heading: "Reverse Cowgirl, sex... hehe...", strat: "4 spiller dele sæ i to gruppa. Den ene spillern må vær på toppen av den andre. I tilegg må han se den andre veien. Sistemann runke i spawn"},
     {heading: "Covid-19", strat: "Det kan ikke vær flere enn en person i vært rom"},
     {heading: "Jens Petter Jacobsen", strat: "Snakk som Jens P. Jacobsen. End alle setninga med ord som Kurrant, Shhiiiit Man!, The we take berlin, Ka kalt du båten? etc."},
+    {heading: "Granatfæst", strat: "Vær runde må man kjøp molotov/incendiary og HE før man kjøp nokka annet. Hvis du daue før du har brukt dæm bægge kan du bare bruk shotgun og starterpistolen"},
+    {heading: "Alt har en pris", strat: "Man kan bare kjøp armor hvis man vinn runden"},
+    {heading: "CSGO Shotgun Pro", strat: "Alle kjøp shotgun. Den eneste bevegelsen som e lov e bhopping. Hvis man ikke kan å bhoppe så må man kast shotgunen sin ditt man vil og så gå te shotgunen."},
+    {heading: "Lydleggern", strat: "Alle laga sound effects the alt dæm gjør"},
+    {heading: "Russisk Roulette", strat: "Alle må trykk på autobuy på starten av runden (F1) og bruk det man får."},
     //herifra og ned e terrorist unikt
     {heading: "På boligjakt", strat: "Gå innom bægge sites før man plante"},
     {heading: "Headass", strat: "Får du et headshot kan du ikke gjør nokka resten av runden."},
