@@ -62,6 +62,7 @@ let generalCTStratArray = [
     {heading: "Just Dance i pausen pliiiiiis!", strat: "Alle må bli i spawn den hær runden. Top fragger'n vælg om man ska dans ingame eller reis sæ opp av stolen og dans irl"},
     {heading: "Reverse Cowgirl, sex... hehe...", strat: "4 spiller dele sæ i to gruppa. Den ene spillern må vær på toppen av den andre. I tilegg må han se den andre veien. Sistemann runke i spawn"},
     {heading: "Covid-19", strat: "Det kan ikke vær flere enn en person i vært rom"},
+    {heading: "Jens Petter Jacobsen", strat: "Snakk som Jens P. Jacobsen. End alle setninga med ord som Kurrant, Shhiiiit Man!, The we take berlin, Ka kalt du båten? etc."},
     //herifra og ned e antiterrorist unikt
     {heading: "30 Sec", strat: "Alle må bli på spawn te timer si 30."},
     {heading: "Da Hood", strat: "Før runden starte må alle skriv 'finna shoot you up' og så kjøp UMP-45. Alle ska kjør 'drive-bys' uten og stop."},
@@ -135,6 +136,7 @@ let generalTStratArray = [
     {heading: "Just Dance i pausen pliiiiiis!", strat: "Alle må bli i spawn den hær runden. Top fragger'n vælg om man ska dans ingame eller reis sæ opp av stolen og dans irl"},
     {heading: "Reverse Cowgirl, sex... hehe...", strat: "4 spiller dele sæ i to gruppa. Den ene spillern må vær på toppen av den andre. I tilegg må han se den andre veien. Sistemann runke i spawn"},
     {heading: "Covid-19", strat: "Det kan ikke vær flere enn en person i vært rom"},
+    {heading: "Jens Petter Jacobsen", strat: "Snakk som Jens P. Jacobsen. End alle setninga med ord som Kurrant, Shhiiiit Man!, The we take berlin, Ka kalt du båten? etc."},
     //herifra og ned e terrorist unikt
     {heading: "På boligjakt", strat: "Gå innom bægge sites før man plante"},
     {heading: "Headass", strat: "Får du et headshot kan du ikke gjør nokka resten av runden."},
