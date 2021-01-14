@@ -28,8 +28,6 @@ function mapChooser(map) {
     ctStrats = tempCTStrats.concat(generalStratArray);
     tStrats = tempTStrats.concat(generalStratArray);
 
-    console.log(ctStrats, tStrats);
-
     head.removeChild(linkStyle);
     head.appendChild(linkTeamSelect);
 
