@@ -22,8 +22,13 @@ let tStrats = "";
 let playedStrats = [];
 
 function mapChooser(map) {
-    ctStrats = generalCTStratArray.concat(mapCTStratArray[map]);
-    tStrats = generalTStratArray.concat(mapTStratArray[map]);
+    let tempCTStrats = generalCTStratArray.concat(mapCTStratArray[map]);
+    let tempTStrats = generalTStratArray.concat(mapTStratArray[map]);
+
+    ctStrats = tempCTStrats.concat(generalStratArray);
+    tStrats = tempTStrats.concat(generalStratArray);
+
+    console.log(ctStrats, tStrats);
 
     head.removeChild(linkStyle);
     head.appendChild(linkTeamSelect);
