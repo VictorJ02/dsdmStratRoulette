@@ -22,7 +22,7 @@ button:hover {
     grid-template-areas:
     "D2 IF TR . MI NU OP"
     ". VG CA AG OF AN .";
-    grid-auto-rows: 320px;
+    grid-auto-rows: 33vh;
 }
 
 #buttons > * {
