@@ -5,6 +5,10 @@ let head = document.getElementsByTagName('HEAD')[0];
 let linkStyle = document.head.querySelector('#styleMain');
 let linkStratDisplay = document.createElement('link');
 let linkTeamSelect = document.createElement('link');
+let vivalaweedEL = document.querySelector('#vlaweed');
+let bodyEL = document.querySelector('body');
+
+vivalaweedEL.addEventListener('keyup', vivalaweed);
 
 linkTeamSelect.rel = 'stylesheet';  
 linkTeamSelect.type = 'text/css'; 
@@ -103,4 +107,10 @@ function tStrat() {
 
     stratHeadingEl.innerHTML = tStrats[randomStrat].heading;
     stratAnswer.innerHTML = tStrats[randomStrat].strat;
+}
+
+function vivalaweed(e) {
+	if ((e.keyCode === 13) && (vivalaweedEL.value == 'vlw2021')) {
+		bodyEL.innerHTML = '<h1>VLW2021</h1><img src = "media/images/vivalaweed.png">';
+	}
 }
