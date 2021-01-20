@@ -8,6 +8,10 @@ img:hover {
     opacity: 0.8;
 }
 
+#vlw:hover {
+	opacity: 1;
+}
+
 button:hover {
     cursor: pointer;
 }
