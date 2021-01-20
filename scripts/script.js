@@ -111,6 +111,6 @@ function tStrat() {
 
 function vivalaweed(e) {
 	if ((e.keyCode === 13) && (vivalaweedEL.value == 'vlw2021')) {
-		bodyEL.innerHTML = '<h1>VLW2021</h1><img src = "media/images/vivalaweed.png">';
+		bodyEL.innerHTML = '<h1>VLW2021</h1><img src = "media/images/vivalaweed.png" id = "vlw">';
 	}
 }
