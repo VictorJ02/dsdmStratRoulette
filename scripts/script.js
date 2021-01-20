@@ -112,14 +112,20 @@ function tStrat() {
 
 var weed;
 let klokkeweed;
+let danseweed;
 
 function vivalaweed(e) {
 	if (vivalaweedEL.value == 'vlw2021') {
 		weed = new Audio("media/sound/smoke_weed2.mp3");
 		weed.play();
 		klokkeweed = setTimeout(delayWeed, 10300);
+		danseweed = setTimeout(slettDanseWeed, 20500);
 	}
 }
 function delayWeed() {
 	bodyEL.innerHTML = '<h1 style = "color:red;">VLW2021</h1><img src = "media/images/sd_dance1.gif" style = "opacity:100%; height:25%; width:25%;"><img src = "media/images/carlton_dance.gif" style = "opacity:100%; height:25%; width:25%;"><img src = "media/images/sd_dance2.gif" style = "opacity:100%; height:25%; width:25%;"><a href = "https://www.instagram.com/vivalaweed2021"><img src = "media/images/vivalaweed.png" id = "vlw"></a>';
+}
+
+function slettDanseWeed() {
+	bodyEL.innerHTML = '<h1 style = "color:red;">VLW2021</h1><a href = "https://www.instagram.com/vivalaweed2021"><img src = "media/images/vivalaweed.png" id = "vlw"></a>';
 }
