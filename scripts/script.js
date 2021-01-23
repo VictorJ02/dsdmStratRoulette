@@ -109,8 +109,7 @@ function tStrat() {
     stratAnswer.innerHTML = tStrats[randomStrat].strat;
 }
 
-
-var weed;
+let weed;
 let klokkeweed;
 let danseweed;
 
