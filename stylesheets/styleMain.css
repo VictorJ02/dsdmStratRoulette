@@ -1,11 +1,13 @@
 img {
     width: 100%;
     height: auto;
+    transition: width 0.1s;
 }
 
 img:hover {
     cursor: pointer;
     opacity: 0.8;
+    width: 102%;
 }
 
 #vlw:hover {
